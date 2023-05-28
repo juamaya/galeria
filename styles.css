@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, purple, black, purple, black, purple);
+  margin: 2em;
+}
+img {
+  max-width: 100%;
+  margin-bottom: 1em;
+  display: block;
+  outline: 3px solid #fff;
+  outline-offset: -1px;
+  border-radius: 1em;
+ 
+}
+.titulo {
+  text-align: center;
+  color: #f6eded;
+  font-size: 3em;
+  margin: 10px;
+}
+.galery {
+  margin-top: 20px;
+  columns: 5 100px;
+  column-gap: 1em;
+  margin-bottom: 20px;
+}
+.footer {
+  text-align: center;
+  color: #1bf8f8;
+  font-size: 1em;
+}
